@@ -1,0 +1,29 @@
+{
+  "name": "ts-scratchpad",
+  "version": "1.0.0",
+  "description": "scratchpad, ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-ts": "tsc",
+    "run-ts": "ts-node-dev --respawn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AadityaJ/ts-scratchpad.git"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "AadityaJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AadityaJ/ts-scratchpad/issues"
+  },
+  "homepage": "https://github.com/AadityaJ/ts-scratchpad#readme",
+  "dependencies": {
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4"
+  }
+}

@@ -53,6 +53,8 @@ const OneIntoTwo: Mult<_1_, _2_> = {
     isZero: "false",
 };
 
+console.log(OneIntoTwo);
+
 type StringBoolean = "true" | "false";
 interface ElementInVector{
     value: any;
@@ -62,7 +64,7 @@ interface ElementInVector{
 
 type Push<U extends ElementInVector, T extends string> = {value: T, prev: U, isLast: "false"};
 type Pop<U extends ElementInVector> = U["prev"];
-type Find<U extends ElementInVector>  = ;
+// type Find<U extends ElementInVector>  = ;
 
 type vect1 = { value: "0", prev: undefined, isLast: "true"};
 type vect2 = Push<vect1, "1">;
