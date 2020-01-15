@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/AadityaJ/ts-scratchpad#readme",
   "dependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "fp-ts": "^2.4.1",
+    "io-ts": "^2.0.4",
+    "node-fetch": "^2.6.0",
     "ts-node": "^8.6.2",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.4"
